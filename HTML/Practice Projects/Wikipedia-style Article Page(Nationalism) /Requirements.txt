@@ -1,0 +1,12 @@
+Wikipedia-Style Article Page:
+
+Goal: Build a structured, information-dense page
+Requirements:
+
+Table of contents with internal links
+Sections (section, article)
+Images with captions
+References (list of links)
+Proper heading hierarchy (h1 → h2 → h3)
+
+Why this matters: You learn document structure + navigation, which is core HTML skill.

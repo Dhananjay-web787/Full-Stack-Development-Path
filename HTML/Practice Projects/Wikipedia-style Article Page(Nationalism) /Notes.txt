@@ -1,0 +1,18 @@
+1. First, take any article of any topic from Wikipedia; use its data to create the code, the HTML on it.
+2. The requirements are:- You should have a table and a navigation panel.
+- You should have a section, an image, a caption, reference links, and a proper structure.
+
+
+
+
+
+This should be divided in such a way that it should look like Wikipedia, but it's written in your own code format.
+
+
+You need to code it. The data is from there, but you need to code it. You need to analyze it.
+
+
+So, taking the stuff from Wikipedia is just based on this, like taking the data instead of having great research.
+
+
+ 
