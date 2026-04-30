@@ -1,0 +1,25 @@
+h1 {
+  color:red;
+}/* So here you can clearly see that the H1 is the selector for what the property within the curly braces is going to apply. The color is the property. There are multiple properties: color, background color, text align, and so on. We are going to learn it in some further down time lessons. The red is the value, which color? Red */
+
+p{
+  background-color: black;
+  color: white;
+} /* Now this is a little bit advanced, but just to let you know that you can add multiple properties for a specific selector without adding different selectors again and again. */
+
+#Firstid{
+  color: green;
+}
+
+.Firsttry{
+  color: skyblue;
+}
+
+
+#Second\id {
+  color: green;
+}
+
+.Second\try {
+  color: deepskyblue;
+}

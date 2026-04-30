@@ -1,0 +1,76 @@
+Hello everyone, good morning. Hope you are doing well. This is a short table of content: what we are going to complete in Lesson 1.
+
+In Lesson 1 of CSS, we are going to complete:
+- what is CSS
+- how to use it
+- some basic information we need to know about CSS
+- some major concepts (not big ones, but some normal ones)
+
+
+Let's dive deep. 
+
+First: what is CSS? 
+> CSS is Cascading Style Sheet, so it means it's a style sheet which you add on anything. Here we use HTML. HTML is basically the structure of any website or web app. Within the front end, we add some style. That's CSS.
+
+For example, some basic example could be: you and your contractor made a decision that we are going to build a house. You built a house. You created the structure of it. You created walls and rooms and all of the stuff, but still the house is not completed. You had your tiles. Everything was there, but still it's empty.
+
+Now it comes to painting. Then you start to paint. Then you paint the doors and make them matching. You add lamps, you add sofas, multiple things respectively. You try to make your home stylish. You try to make your home alluring. That's what CSS is in a web app. 
+Some common misconception is that CSS is a programming language. CSS is not a programming language. It's a style sheet, which is added on HTML to make it alluring. 
+
+
+
+Second: how to use CSS?
+> So CSS is another file, just like in your project wherever you start coding. I hope you are a desktop user, laptop user, using VS Code, or, if you are not using VS Code, you are mobile, so you are using one of the apps like aspck editor and a code and multiple apps, termux, whatever. In that, you create two files in any folder:
+1. HTML index.html
+2. style.css
+
+
+I refer, as you are a beginner, please. Right now, stuck with us, stick with these names only, because, like one point which I explained earlier in HTML, if you reviewed it, in index.html, the word index is clearly a clear sign to the browser. If you change your name from index to HTML, for example, like whatever, blue dot html, it's still going to work, but when it comes to Google preferences, when it comes to the perfect format for your code, there are some issues that might arrive. I prefer you to just stick with index.html name only. That's the best way, and here stick with style.css in future, when you're going to create multiple projects, big projects, you want to obviously change your name, but at that time you need to tell the browser that this is the name. It's not index.html.
+
+The second thing I would like to say is that please make sure that your two files are in the same folder. They are not in different folders, then it would be very hard to connect them. 
+
+
+
+Third: how to connect CSS?
+> So, to connect to CSS, I told you to create two files: index.html. In index.html, please create the boilerplate code.
+
+Before we dive deep into CSS, I would please tell you to learn HTML. Don't come empty-headed, because you at least need to know how HTML works. You at least have to have a little bit of practice in HTML. Otherwise, if you don't know HTML, then how on earth are you going to know what is CSS? CSS is the style on HTML, so I hope you will have learnt it, and it would be very helpful.
+
+Back to the point: in HTML, in the head section, you have to add a tag called the link tag. In the link tag, then you link CSS. You use REL to tell the name, which is style sheet, as it is a style sheet you are styling it, and the href attribute. Both are attributes, by the way. The href attribute is to basically connect it with that perfect name. If it was in a different folder, you had to have the full path of that folder. If this CSS file was in a different folder, then you have to have the complete path of that file, and you can connect it, but I would recommend keeping it in the same folder. You connected, and your CSS and HTML, these two files, are connected. Whatever changes you do within CSS is going to reflect on HTML, and whatever changes you do within HTML is also basically HTML only. 
+
+
+
+fourth: how to use comments in CSS?
+> To comment out anything within CSS, we use / and *. At the start of the comment, we use /*, and at the end of the comment we use */. This is something very useful, because right now you might think that this is normal. In the future, when we are going to learn multiple huge projects and you are going to deal with huge projects, you need to use this comment section to comment out multiple things. 
+
+
+
+Fifth: the ways to add style in HTML?
+> Now there are three ways to add style within HTML:
+1. Inline styling
+2. Through the style tag within HTML
+3. Through this cascading style sheet format
+
+
+Most of the time, first of all, make sure you have this in your head: we are not going to use inline styling nor the style tag within HTML for styling anything in HTML unless and until you have a huge threat or a problem where you need to use them. You're going to use them, but not for normal use, not at all, not at all for saving time. If you practice now to just use those two tags instead of using this style sheet format, you're eventually going to land up where your tag is going to look different. For example, there's a head tag in HTML. You set it to blue, and in the style sheet you set it to pink. Now, when you see the final option as to the hierarchy mentioned, the hierarchy is such that your inline style tag, the inline tag within HTML, is the most preferred one. Then there's the style tag within the HTML, which is second preferred, and then the third is this cascading style sheet. If you add black and here you add pink, it's obviously going to be black, no matter what it is, so it's going to confuse you. You are going to land up in confusion, because in companies you have to create big projects, so you can't deal with something this problematic. That's why, just for the sake of knowledge, we are going to learn this three. 
+
+
+
+
+Final: Some basic concepts of CSS?
+> So, to write CSS, you can do the following. CSS is used in a format. There is a selector, an element, and an output. Now I have changed the name of the output. It is officially the selector, property, and value.
+
+The selector is basically the HTML tag on which the style is going to be applied. That is the selector. The property is what is going to be applied on it. For example, in the example of this lesson, you can clearly see that in CSS I added an h1 tag, so the h1 tag was the selector. Your property and value go within curly braces.
+
+I hope you understand. The property is, for example, color. You can clearly see I say I did color, and I also use background color, so there are multiple properties. We are going to learn them in the future, but within this lesson you can see that is the property and the value of that property, which is color. What is the color? Simple question. What is the color red, blue, green, anything that you added? Boom, here you have the perfect first basic syntax, and you have written your first CSS code. Congratulations!. 
+
+
+
+Extra Note: to apply any property for a div tag, we need to classify that div tag. Classification means we need to give it an identity. Here in HTML, as we have learnt, there are two types:
+- Class is a collective group of different tags.
+- Id is given to a single unit, given to a single tag.
+
+
+In CSS, to use any property on id, we use the # symbol. For class, we use the. symbol. 
+
+Next lesson note: in the next lesson, we are going to learn about RGB, RGBA, Hex system, and those color things of CSS. Get ready!
