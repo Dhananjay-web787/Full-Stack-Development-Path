@@ -1,0 +1,72 @@
+Hello everyone, today we are going to learn something deep within CSS. Now I would just let you understand what CSS first of all is. We understood in the last lesson that CSS is basically styling. Now, from now on, everything we are going to learn is just going to be to make the website more alluring.
+
+Till now, we learned selectors and all the fundamentals. I would like to repeat them once and for all, their over 4 types of selectors, I think. I forgot to tell you guys, so let's cover it up. There are 4 kinds of selectors in CSS. Selectors are basically the entity on which a property and value is applied. That is:
+- Universal selector: everything is just basically everything within the HTML has that specific thing. For example, if you want a specific bold on a web page, you just use a universal selector and everything within it has that thing.
+- Element selector: it is basically the selector which is of each element, like head, paragraph, and so on.
+- Class selector: we learned about classes, div tags, and that all stuff.
+- ID selector: id and all that stuff.
+
+
+In this lesson, what are we actually going to cover? In this lesson, we are going to cover the following:
+- What and how colors are applied on a web page
+- What is RGB
+- What is hex decimal/hex code
+- What is RGBA
+
+
+These are the following topics we are going to cover, so let's start. Let's dive deep in. 
+
+
+First: what are colors and how are they applied in a web page? 
+>In a web page, there are the main three colors: red, green, and blue. These are the three main web page colors, and every other color is made just from this combination, not in reality. In reality itself, we use different colors, but in a web page, the mixture of these three colors depends on the shade or a different, unique color.
+
+For example, if you apply red and green, you get yellow. Now, what do I mean by full red and full green? I am just going to explain it below. If you mix red and blue, you get the pinkish shade. If you mix blue and green, you get skyblue. If you mix all of them, red, blue, and green, you get white. This is basically how colors behave in CSS and web pages. 
+
+
+
+Second: what is RGB? 
+> So now, yes, we understood how colors behave. RGB simply stands for red, green, blue. R is for red, G is for green, and B is for blue. These are the three primary colors, as we talked about on web pages. Now they are, like I told you, that we use the RGB system for picking any shade on a webpage, possible, or I can even perfectly say any shade in the world. Why? Because it's like from 0 to 255. The max, the highest color of any green, blue, yellow, sorry, green, red, blue is 0 to 255. This is the max range.
+
+For example, if you want a full red color on your webpage, you use 255, then 00, then 00. This is the basic the way used in RGB. 
+
+
+
+
+Third: what is hex decimal?
+>so we can call hex decimal the short form of RGB hex? Hex decimal is basically another type of adding colors. It's another format of adding colors on your web pages. It's in the same way as RGB: first two figures are red, then the second two are green, then the third is blue. Here, instead of the 0 to 255 range, we have 16 digits now.
+
+What do I mean by 15 digits in math, if any of you know math? It's basically like we have 10 digits, 0 to 9. Some of you might say, "Oh, there are 10." That's 11, basically 10 and 11, and so on. They are just combinations of zeros, ones, twos, and so on, so they are just repeating. That's not a new digit; it's simply the mixture of 0 to 9. We have 10 digits in math here. We also prefer these 10 digits, but then we have a, b, c, d, and f. After 9, we have 10, 11, 12, 13, 14, 15, and so on. In the same way, the full color, the final color, is f.
+
+ For example, if you want the green color, the first two digits will be 00, then ff stands for full green, and then 00. It's like two places, so we can clearly say which it is, two places. Why for the same color? It helps you to have a decimal kind of shade. That's why some shades were in RGB. We had 255, so 194 is also a shade of red, 194 is also a shade of blue. It's a little bit trickier, but here we have the decimal kind of stuff. 
+ 
+ 
+ 
+  Final: What is RGBA? 
+  
+  >RGBA stands for red, green, blue, and alpha. Now you might say, "What the heck is alpha?" We knew RGB, but what is this A?
+  
+In future lessons, we are going to learn about creating circles and creating boxes within web pages. If we create that kind of stuff, we have to have its transparency. If you take an example, it is basically the transparency of any color. If you take dark green as your RGB and the A value, which is the last value included within RGB, is 0.5, the thing should be half transparent. I don't need to explain what transparency means. If you take white, which is all three mixed together, and you add 0.2, that is transparency. The digits lie from 0 to 1. This is the stuff, so it's a little bit trickier, but alpha just stands for transparency. That's what we need to understand here. Nothing big. 
+
+
+
+To just make things clear, we use this RGB and that all stuff. These are the values, by the way: RGB, RGBA, hex, and decimal. In which property do they align? They align in multiple properties, like background color and color. In the future, we are going to learn that padding and margin and that all stuff align in very much multiple cases. Some properties I'm sharing with you right now, which I'm going to share in lesson 3, but it's good to know where we are standing, because in code, when you are going to open the index.html and CSS, you are going to get confused if you don't know those properties.
+
+The first property is background color. Now, in a web page, if anyone has done photography, he or she knows what I mean by foreground and background. Just think, for example: you have a white sheet in front of you. You imagine that there's a straight white sheet or a white wall in front of you. You applied a sticker on it. Now remove that sticker. Whatever area the sticker was applied, just shade that part. It shouldn't be perfect. Then you apply again the sticker. Can you see the shaded part? If you shaded perfectly or even roughly, you can't see the part which was covered. It's the same way, so that you can see the part which is not covered with the sticker, the white wall or the sheet or whatever it is. That sticker is your foreground in your perspective when you look at it. The sticker is the foreground, and the white wall or the sheet or whatever it is, it's the background. Background is the last layer. You can't go behind the background. Background is final. Any layer on top of the background is named as foreground, and then there are multiple layers and multiple name changes, but we don't need to go that much deep for the development part.
+
+So yeah, that's called background, and this is foreground. There is background color, so the color property which we talk about is the foreground color of anything, and the background color which we apply is obviously the background. For example, if you create a button button tag in HTML, if you apply color and you set it red, it's going to be the foreground color, it's going to be the text. If you apply background color and you set it to brown or whatsoever, it's going to apply to the box. This is basically the color scheme: the foreground, the background scheme. 
+
+Moving on, we completed our lesson 2 here. We understood the colors and their properties, like background color. It's all now in the future, down the line. We are just going to learn properties. This was some basic structure we need to learn, like RGB, which was a basic color theme and that old stuff. Then it was selectors, and that also was the basic thing. Now there are going to be many properties. Selectors and fixed values are going to be also changed every time. We are not going to say that, because, for example, just to give you a little bit of a taste. If there is a paragraph, according to English, the indentation should be from right to left, but if we want the indentation to be center, then there's a text-align property with the value center. This is all the stuff we are going to learn in the future, but get ready for it. One more thing important I would like to say before moving further down the line: we are going to also have practice tests within this course. I would like to appreciate it.
+
+One more thing I would like to say is that not anyone, not even me and nobody on earth knows every property of CSS. I have already told you that. Please don't memorize any property in CSS. I repeat, please don't memorize every property.
+
+Now, here is the trick of every developer, every expert developer, senior developer: the 80/20 rule. 80% comes from practice, 20% is memorization. Here you might say, "What is memorization?" The memorization is the selector, property, value which we talked about in the previous lesson. Those are things you need to memorize and understand. The 80% is the stuff you're going to practice if you just understand these full codes. In the future, if you create your own project, like Amazon website clone, you are definitely going to hit a point where you might say, "Oh, what is the property to do this stuff?" You might Google it, and that's what I'm saying: 20% memorizing, 80% learning, and mix them. We also use Google as a MD&Docs and Google as the main stuff. I repeat, and one more thing I would have to clarify. I clarified in HTML. I am going to clarify here too.
+
+Please use MDN docs. Please use Google. Please use AI. I prefer using ChatGPT. You might prefer Gemini. Some of you might say Grok, or anything else. I don't care about it. Use AI! We are not in high school, and we are not in a college where there is a ban or limitation on us. Legally, we all are going to use AI, even in colleges and schools.
+
+I prefer on the front that please use AI. Please leverage AI! For any property you don't understand, or where you want more depth in it, use AI! Just tell ChatGPT, "Just write a prompt. I don't know this property. Can you please explain it to me in detail?" Go to MDN! Help yourself!
+
+It's not that this course is going to cover everything. I can confidently say right now that CSS is such a huge ocean that I don't remember every property! There is a majority of properties which I don't remember, and I don't need to. Why do I? Who cares?
+
+I would say that if anyone follows this course, even in the future or even right now, whatever this course is, it's the bare minimum to finish CSS. It's enough! You don't need to go deeper. CSS is a thing that, after completing this whole course, I bet that you are ready to move on to JavaScript or any other language! I think so, you are doing web development, so definitely JavaScript! Move on to JavaScript after completing this course. You don't need to learn CSS more, because you are going to do JavaScript and you are going to build different projects, and you are definitely going to learn CSS. CSS is something that it takes more than 15 years to learn. Why are you going to waste your 15 years just learning CSS? You don't need to become a CSS expert. Nowadays AI can create HTML, CSS, and JavaScript easily. The thing here is we need to understand these tools and we need to leverage them with AI, using AI so that we have a perfect job.
+
+Usually I don't explain this much, but okay, I hope you get it. Let's move on. It's going to be very amazing. Thank you!
