@@ -1,0 +1,36 @@
+#h1{
+  text-decoration: underline;
+}
+#h2{
+  text-decoration: dotted underline;
+}
+#h3{
+  text-decoration: red overline;
+}
+
+
+
+#paragraph{
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+/* In mine, it converts the used browser valid fonts into yellow. In your it might be different. */
+#font{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#right{
+  text-align: right;
+}
+#left{
+  text-align: left;
+}
+#center{
+  text-align: center;
+}
+#start{
+  text-align: start;
+}
+#end{
+  text-align: end;
+}

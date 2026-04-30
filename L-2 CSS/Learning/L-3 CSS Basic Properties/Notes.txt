@@ -1,0 +1,89 @@
+Hello everyone, good morning. Hope you are doing well.
+
+Before starting this lesson, we are going to have just a preview of what we did in the last two lessons. In the last two lessons, we basically started with:
+1. What is CSS
+2. How to set colors and two properties we learned
+
+
+In this lesson, we are going to learn the following:
+1. Multiple properties, which include:
+- text decoration
+- font family
+- text align
+- To use console in development 
+
+Before starting anything, I will clearly remind you that these are not all of the properties. If in the future you get any projects and you do create anything which doesn't include this property but you want the style kind of thing, then you need to use online AI MDN docs and Google, tons of resources are out there for you to serve your plate.
+
+First: what is text decoration?
+>Whenever you write anything, like any paragraph, any heading, or anything, then text declaration property, why am I saying property? This is the property thing: paragraph, heading. They are all the selectors within them. Text declaration is a property, and the value of text declaration could be:
+- line underline
+- overline
+- line through dotted line
+- wavy underline
+
+This could be the values. What do I mean by them? They are basically text properties to create lines. The simplest explanation is just to create lines like dotted underline, wavy underline, then dotted line through. That means to basically cut the text. There are multiple text decoration properties you can explore in MDN. This is basically creating lines, and in the text decoration property you can add lines, but you can color lines too. You can clearly see within our CSS we have written it, and in index.html, when you run the code, you can clearly see that we have the color.
+
+(A side note: text decoration have multiple properties of text decoration, like:
+- text decoration line
+- text decoration style
+- text decoration color
+
+
+This is all just text decoration, but in a more straightforward way. For example, in text decoration line, you can set the line under line through it. It looks much more professional, so please integrate that way.
+
+Text style is basically:
+- wavy
+-curly
+- dotted
+
+
+You get the point, and text decoration color is basically to use a color and to color it. The same thing is going to give you the same results. It's a little bit professional, but it's just a professional game, but when it comes to reality, we just merge everything in one line and get it done.) 
+
+
+
+Second: what is the font family property? 
+>The font family property is another text property, which is basically to have different forms. Now, those who don't know what a font is, it's basically the style of writing any alphabet within English, within any language. For example, you might write cursive. I might write plain. The computer version is called the computer text, Roboto then so and so. I don't remember the type of font names, and you either don't. You just need to understand what a font family is. Font family is basically fonts.
+
+Again, font family is written as a property. You could be any type, but make sure that your browser supports it. Like, there are some cases where you might be using Opera. I might be using Edge, and someone else might be using Chrome, and someone else might be using Internet Explorer. For this kind of different browser accessibility for the same prompt, it's not possible. That's why developers usually have this font chain. They basically add multiple fonts within the value section so that if, for example, the Arial font in Opera doesn't work, it goes to Roboto. If Roboto doesn't work, then next one, then sans,  more there are so and so. This is the way this is called the fallback mechanism. 
+
+
+
+
+Third: What`text-align` property? 
+>This property is used to align text. For example, if any text paragraph, heading, article section, anything which is written in an HTML file, it's obviously aligned to the left side, as we in English write it on the left side. If you want to make it in the center, this `text-align` property is used to align text: left, right, and center. These are the three values.
+
+There are more. For example, in the latest version of CSS 3, now CSS 4 has arrived, but I don't have much update of CSS regarding this property. In CSS 3, there was a release and it is still going on. As right and left, it has been start and end also. For example, in English we start from the left side and we end till the right side, but in Urdu we start from the right side and we end from the left side. According to that, you need to write the stuff and align it properly. 
+ 
+ 
+ 
+ Final: How to use the console?
+>Right now I just taught you guys three properties, but I told you that there are more out there. You can explore yourself. Go and explore it. Go and check it out. Start to learn something, but I would repeat as I repeated in the last lesson: don't remember those properties. Don't try to ever, ever memorize them in the future. If you need it, just search for it. You don't need to memorize these. These are the bare minimum you need to learn, and they are enough. They are totally enough.
+
+It's not like these are only the text properties on ours. There are more, but these are the main used ones, and we are going to learn even more in the future, so don't worry about those text properties. This is the first part, and now finally we move towards the console.
+
+Back to our topic, Consoles. When you hit run, you are definitely going to see that there are multiple options on the respective editors you use. If you can't see them, please set your Terminal or Console (whatever those editors say) to Accruda, then you're going to have the full debugging mode. Here you can see:
+- Console
+- Elements
+- Network
+- Resources
+- Settings
+
+
+We are right now in CSS, and we are going to focus on Elements. Here you can see HTML, div. If you use my code, right, if you open it, you can clearly see:
+- head
+- HTML
+- div
+- body
+
+
+These are the text which are used here, like multiple tags are used here, heading and that all stuff. It also is, but they say this, then their attribute styles, then compute style. Now the compute style which you are seeing is the thing we need in the future of CSS. It's like padding, border, mind. Now what do I mean by this whole stuff? We are just going to learn it in a while, but stick with me.
+
+There is Network, there is an option of Nectar Network. There are resources and settings, and there are multiple things, and this all is going to be learned when we enter, like, we are about to finish full front-end and when we start entering backed and we start getting under the hood. These things are going to be very crucial, so just note and pay attention to it. I'm in a mobile version right now, so my console is different from your VS Code and so on. Now don't ask me why I'm coding on a mobile, please. 
+
+Right now is how to learn CSS and how to maximize your efficiency in CSS. That's it. At a point in the future you are going to need to not master but have a proficient gap in console, because when you create multiple huge new projects (I assume you're going to do that), at that point you can't tweak your code because there are going to be hundreds and thousands of lines of code. I have seen projects so long, just check Amazon websites, even clones. You can fairly see how complex it is. That's why you're going to master console eventually, but right now.
+
+
+
+Moving down the line, we have completed the text basic properties, and our lesson three is also completed. Congratulations, you have completed lesson three. You actually know much better now about CSS.
+
+We are going to move on in the next lesson, where we are going to have areas of text and more and more. Get ready, get ready, seriously, get ready. It's going to be a lot of fun. You're going to understand it. I'm going to explain it. It's good, yeah, get ready. 
